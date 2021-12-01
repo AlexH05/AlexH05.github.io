@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CSS Table </title>
+<style>
+table,td,th {
+    border: 3px solid black;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+th {
+    text-align:center;
+    background-color: blue;
+}
+td {
+    text-align: right;
+    padding: 5px;
+    background-color:darkgoldenrod
+}
+caption {
+    background-color: chartreuse;
+}
+</style>
+</head>
+<body>
+<table>
+    <caption>Party stuff</caption>
+    <tr>
+        <th>Food</th>
+        <th>Drink</th>
+        <th>Snacks</th>
+    </tr>
+    <tr>
+        <td>Burger</td>
+        <td>Soda</td>
+        <td>Chips</td>
+    </tr>
+    <tr>
+        <td>Mac & Cheese</td>
+        <td>Water</td>
+        <td>Veggies</td>
+    </tr>
+    <tfoot>
+        <tr>
+            <td>Mashed Potatoes</td>
+            <td>Juice Boxes</td>
+            <td>Crackesr</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
