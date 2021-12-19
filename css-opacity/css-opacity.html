@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Opacity</title>
+<style>
+td{
+    height: 100px;
+    width: 100px;
+    background-color: orchid;
+}
+#d9{
+    opacity: 0.9;
+}
+#d8{
+    opacity: 0.8;
+}
+#d7{
+    opacity: 0.7;
+}
+#d6{
+    opacity: 0.6;
+}
+#d5{
+    opacity: 0.5;
+}
+#d4{
+    opacity: 0.4;
+}
+#d3{
+    opacity: 0.3;
+}
+#d2{
+    opacity: 0.2;
+}
+#d1{
+    opacity: 0.1;
+}
+#r9{
+    background: rgb(76,175, 80, 0.9)
+}
+#r8{
+    background: rgb(76,175, 80, 0.8)
+}
+#r7{
+    background: rgb(76,175, 80, 0.7)
+}
+#r6{
+    background: rgb(76,175, 80, 0.6)
+}
+#r5{
+    background: rgb(76,175, 80, 0.5)
+}
+#r4{
+    background: rgb(76,175, 80, 0.4)
+}
+#r3{
+    background: rgb(76,175, 80, 0.3)
+}
+#r2{
+    background: rgb(76,175, 80, 0.2)
+}
+#r1{
+    background: rgb(76,175, 80, 0.1)
+}
+#i1{
+    position: relative;
+    height:500px;
+    width:700px;
+    z-index: 1;
+    opacity: 1;
+    left:400px
+}
+#i2{
+    position:absolute; 
+    height: 500px;
+    width: 700px; 
+    z-index:2;
+    opacity: 0.4
+}
+</style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td id="d9">90%</td>
+            <td id="d8">80%</td>
+            <td id="d7">70%</td>
+        </tr>
+        <tr>
+            <td id="d6">60%</td>
+            <td id="d5">50%</td>
+            <td id="d4">40%</td>
+        </tr>
+        <tr>
+            <td id="d3">30%</td>
+            <td id="d2">20%</td>
+            <td id="d1">10%</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td id="r9">90%</td>
+            <td id="r8">80%</td>
+            <td id="r7">70%</td>
+        </tr>
+        <tr>
+            <td id="r6">60%</td>
+            <td id="r5">50%</td>
+            <td id="r4">40%</td>
+        </tr>
+        <tr>
+            <td id="r3">30%</td>
+            <td id="r2">20%</td>
+            <td id="r1">10%</td>
+        </tr>
+    </table>
+    <img id="i2" src="NYC.jpg" >
+    <img id="i1" src="nature.jpg" >
+</body>
+</html>
